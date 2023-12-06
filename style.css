@@ -1,1 +1,95 @@
 
+/* -------------------------------------------------------------------------- */
+/*                                     nav                                    */
+/* -------------------------------------------------------------------------- */
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #917b6e;
+    position: absolute;
+    padding-right: 1105px;
+}
+
+li {
+    display: inline-block;
+    color: white
+    text-decoration-style solid ;
+    padding-right: 80px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: between;
+    
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 50px;
+    font-size: 30px;
+    line-height: 100px; 
+     
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   header                                   */
+/* -------------------------------------------------------------------------- */
+header { 
+    
+    color: rgb(251, 245, 245);
+    font-size: 15px; 
+    margin: 70px;
+    height: 80vh;
+    background-image: url(https://img.freepik.com/free-photo/futuristic-abstract-wallpaper-with-shiny-metallic-stripes-generated-by-ai_188544-10285.jpg?w=1380&t=st=1700690655~exp=1700691255~hmac=4fefc83ab96a989f4300759bc765947e4ff241a8bf5f19c7dc0425addea1e011); 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    main                                    */
+/* -------------------------------------------------------------------------- */
+p { 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/*section */ 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+
+}
+img {
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               footer section                               */
+/* -------------------------------------------------------------------------- */
+footer {
+    background: pink;
+}
+.row {
+    overflow: hidden;
+}
+
+.column {
+    width: 49%;
+    background: green;
+    margin: 1px;
+
+    float: left;
+}
